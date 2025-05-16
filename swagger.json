@@ -13,7 +13,9 @@
   "paths": {
     "/": {
       "get": {
-        "tags": [],
+        "tags": [
+          "Hello World"
+        ],
         "description": "",
         "responses": {
           "200": {
@@ -24,7 +26,9 @@
     },
     "/contacts/": {
       "get": {
-        "tags": [],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "produces": [
           "application/json"
@@ -36,7 +40,9 @@
         }
       },
       "post": {
-        "tags": [],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "parameters": [
           {
@@ -76,7 +82,9 @@
     },
     "/contacts/{id}": {
       "get": {
-        "tags": [],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "produces": [
           "application/json"
@@ -96,7 +104,9 @@
         }
       },
       "put": {
-        "tags": [],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "parameters": [
           {
@@ -140,7 +150,9 @@
         }
       },
       "delete": {
-        "tags": [],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "parameters": [
           {
