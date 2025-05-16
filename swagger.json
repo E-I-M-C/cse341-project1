@@ -5,15 +5,15 @@
     "description": "Contacts Api",
     "version": "1.0.0"
   },
-  "host": "https://cse341-project1-szbl.onrender.com",
+  "host": "localhost:3000",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
     "/": {
       "get": {
+        "tags": [],
         "description": "",
         "responses": {
           "200": {
@@ -24,6 +24,7 @@
     },
     "/contacts/": {
       "get": {
+        "tags": [],
         "description": "",
         "produces": [
           "application/json"
@@ -35,6 +36,7 @@
         }
       },
       "post": {
+        "tags": [],
         "description": "",
         "parameters": [
           {
@@ -74,6 +76,7 @@
     },
     "/contacts/{id}": {
       "get": {
+        "tags": [],
         "description": "",
         "produces": [
           "application/json"
@@ -93,6 +96,7 @@
         }
       },
       "put": {
+        "tags": [],
         "description": "",
         "parameters": [
           {
@@ -136,6 +140,7 @@
         }
       },
       "delete": {
+        "tags": [],
         "description": "",
         "parameters": [
           {
