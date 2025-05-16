@@ -18,7 +18,7 @@ content-type: application/json
   "birthday": "2/2/2000"
 }
 
-### Update contact
+### Update contact by id
 PUT http://localhost:3000/contacts/682656e5953ae25d2021a111
 content-type: application/json
 
@@ -30,7 +30,7 @@ content-type: application/json
   "birthday": "2/2/2000"
 }
 
-### Delete contact
+### Delete contact by id
 DELETE http://localhost:3000/contacts/682656e5953ae25d2021a111
 
 
@@ -41,3 +41,30 @@ GET https://cse341-project1-szbl.onrender.com/contacts
 
 ### Get single contact
 GET https://cse341-project1-szbl.onrender.com/contacts/681e70fdbc18d8b840a0dbb0
+
+### Create contact
+POST https://cse341-project1-szbl.onrender.com/contacts
+content-type: application/json
+
+{
+  "firstName": "test",
+  "lastName": "name",
+  "email": "test@mail.com",
+  "favoriteColor": "testColor",
+  "birthday": "2/2/2000"
+}
+
+### Update contact by id
+PUT https://cse341-project1-szbl.onrender.com/contacts/682656e5953ae25d2021a111
+content-type: application/json
+
+{
+  "firstName": "test",
+  "lastName": "rest",
+  "email": "mail@test.com",
+  "favoriteColor": "testColor",
+  "birthday": "2/2/2000"
+}
+
+### Delete contact by id
+DELETE https://cse341-project1-szbl.onrender.com/contacts/682656e5953ae25d2021a111
